@@ -20,7 +20,7 @@ printf("The unsigned number is: %u\n", num);
 Floating-Point Format Specifier (%f):
 Used for float data type.
 Example:
-float pi = 3.14;
+float pi = 14;3.
 printf("The value of pi: %f\n", pi);
 
 String Format Specifier (%s):

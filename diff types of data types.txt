@@ -1,0 +1,64 @@
+Primitive Data Types:
+These are the most basic data types used for representing simple values. They include:
+Integer Data Type (int):
+Used to store whole numbers (positive, negative, or zero) without decimal parts.
+Example:
+int age = 25;
+
+Character Data Type (char):
+Used to store single characters (letters, digits, symbols).
+Example:
+char grade = 'A';
+
+Floating-Point Data Types (float, double, long double):
+Used to store decimal numbers.
+Example:
+float pi = 3.14;
+double salary = 50000.75;
+
+Void Data Type (void):
+Represents the absence of a value.
+Used for function return types or pointers.
+Example:
+void printMessage() {
+    printf("Hello, World!");
+}
+
+Derived Data Types:
+These data types are derived from primitive or built-in data types. Examples include:
+Array:
+A collection of elements of the same data type.
+Example:
+int marks[5] = {85, 90, 78, 92, 88};
+
+Pointer:
+Stores memory addresses of other variables.
+Example:
+int *ptr;
+int x = 10;
+ptr = &x;
+
+String (an array of characters):
+Used to store sequences of characters.
+Example:
+char name[] = "John";
+
+User-Defined Data Types:
+These are defined by the user. Examples include:
+Structure:
+Allows grouping of variables of different data types under a single name.
+Example:
+struct Student {
+    char name[50];
+    int rollNumber;
+    float marks;
+};
+
+Enum (Enumeration):
+Defines a set of named integer constants.
+Example:
+enum Days { MON, TUE, WED, THU, FRI, SAT, SUN };
+
+Remember that the size of data types may vary depending on the compiler
+and system architecture. You can use the size of operator to check the actual
+size of any data type.

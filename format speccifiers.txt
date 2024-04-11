@@ -1,0 +1,36 @@
+Character Format Specifier (%c):
+Used for the char data type.
+Example:
+char grade = 'A';
+printf("The grade is: %c", grade);
+
+Integer Format Specifier (signed) (%d or %i):
+Used for int data type.
+Example:
+int age = 25;
+printf("The age is: %d\n", age);
+printf("The age (formatted): %3i\n", age);
+
+Unsigned Integer Format Specifier (%u):
+Used for unsigned int data type.
+Example:
+unsigned int num = 42;
+printf("The unsigned number is: %u\n", num);
+
+Floating-Point Format Specifier (%f):
+Used for float data type.
+Example:
+float pi = 3.14;
+printf("The value of pi: %f\n", pi);
+
+String Format Specifier (%s):
+Used for strings (arrays of characters).
+Example:
+char name[] = "John";
+printf("Hello, %s!", name);
+
+Hexadecimal Format Specifier (%x or %X):
+Used for hexadecimal representation.
+Example:
+int hex_value = 0xABCD;
+printf("Hex value: %X\n", hex_value);

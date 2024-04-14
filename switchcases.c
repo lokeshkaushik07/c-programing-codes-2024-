@@ -14,7 +14,7 @@ int main (){
         case 'B':
             printf("You did okay!\n");
             break;
-        case 'C':
+        case 'C'||'E':
             printf("At least its not an F!\n");
             break;
         case 'F':
